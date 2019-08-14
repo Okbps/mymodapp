@@ -1,0 +1,3 @@
+module appstart {
+    exports appfuncs;
+}
