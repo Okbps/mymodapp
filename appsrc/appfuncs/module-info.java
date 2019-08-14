@@ -1,3 +1,4 @@
-module appfunc {
-    exports appfuncs.simplefuncs;
+module appfuncs {
+    requires transitive appsupport;
+    exports appfuncs.simplefuncs to appstart;
 }

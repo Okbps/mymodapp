@@ -1,3 +1,5 @@
 module appstart {
-    exports appfuncs;
+    requires appfuncs;
+    requires userfuncs;
+    uses userfuncs.binaryfuncs.BinFuncProvider;
 }
